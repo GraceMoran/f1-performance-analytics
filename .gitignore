@@ -1,0 +1,8 @@
+# Ignore SQLite database files (generated locally)
+database/*.db
+*.sqlite3
+
+# Ignore Python cache & temporary files
+__pycache__/
+.venv/
+.DS_Store
