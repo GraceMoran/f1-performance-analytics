@@ -1,8 +1,37 @@
-# Ignore SQLite database files (generated locally)
-database/*.db
-*.sqlite3
-
-# Ignore Python cache & temporary files
+# -----------------------------
+# Python
+# -----------------------------
 __pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
 .venv/
+venv/
+
+# -----------------------------
+# SQLite temporary files
+# -----------------------------
+*.db-journal
+*.sqlite-journal
+
+# -----------------------------
+# DB Browser for SQLite
+# -----------------------------
+*.sqbpro
+
+# -----------------------------
+# VS Code
+# -----------------------------
+.vscode/
+
+# -----------------------------
+# Operating System
+# -----------------------------
 .DS_Store
+Thumbs.db
+
+# -----------------------------
+# Jupyter
+# -----------------------------
+.ipynb_checkpoints/
