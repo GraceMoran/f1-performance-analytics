@@ -65,3 +65,21 @@ This repository is intended to demonstrate:
 ---
 
 *This project is being developed incrementally as a learning portfolio to demonstrate technical growth and professional data analytics practices.*
+
+## Project Progress
+
+### ✅ Completed
+- [x] Project setup
+- [x] Git & GitHub repository
+- [x] SQLite database created
+- [x] Formula 1 dataset downloaded
+- [x] Drivers table imported
+- [x] Basic SQL queries (`SELECT`, `FROM`, `WHERE`, `ORDER BY`, `COUNT`)
+
+### 🚧 In Progress
+- [ ] Import remaining tables
+- [ ] SQL `GROUP BY`
+- [ ] SQL `JOIN`s
+- [ ] Python data analysis
+- [ ] Data visualisation
+- [ ] Final dashboard
