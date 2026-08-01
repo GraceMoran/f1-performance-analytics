@@ -1,18 +1,18 @@
 # 🏎️ Formula 1 Performance Analytics
 
-An end-to-end data analytics portfolio project built using SQL and Python to explore historical Formula 1 data and uncover performance insights through database querying, analysis and visualisation.
+An end-to-end data analytics portfolio project using SQL and Python to analyse historical Formula 1 data and uncover performance insights through database querying, analysis and visualisation.
 
 ---
 
-## 📌 Project Purpose
+# 📌 Project Purpose
 
-The aim of this project is to demonstrate practical data analytics skills by analysing historical Formula 1 data using industry-standard tools and workflows.
+The aim of this project is to demonstrate practical data analytics skills by exploring historical Formula 1 data using industry-standard tools and workflows.
 
-The project is being developed using professional software development practices, including Git version control, documentation, relational database design and reproducible analysis.
+The project is being developed incrementally while following professional software development practices including Git version control, database design, documentation and reproducible analysis.
 
 ---
 
-## 🎯 Objectives
+# 🎯 Project Objectives
 
 This project will investigate questions such as:
 
@@ -21,13 +21,34 @@ This project will investigate questions such as:
 - Which drivers gain the most positions during races?
 - Which constructors have performed best over time?
 - Which circuits favour particular teams or drivers?
-- How have driver and constructor performance trends changed over multiple seasons?
+- How have driver and constructor performance trends changed across multiple seasons?
 
 ---
 
-## 📁 Project Structure
+# 🛠️ Tech Stack
 
-```text
+### Languages
+- SQL (SQLite)
+- Python *(coming next)*
+
+### Libraries
+- pandas *(planned)*
+- Matplotlib *(planned)*
+
+### Database
+- SQLite
+- DB Browser for SQLite
+
+### Development Tools
+- Visual Studio Code
+- Git
+- GitHub
+
+---
+
+# 📂 Project Structure
+
+```
 f1-performance-analytics/
 │
 ├── data/
@@ -36,85 +57,135 @@ f1-performance-analytics/
 │
 ├── database/
 │
-├── docs/
-│
-├── python/
-│
 ├── sql/
+│
+├── docs/
 │
 ├── visualizations/
 │
-├── README.md
-└── .gitignore
+├── .gitignore
+└── README.md
 ```
 
 ---
 
-## 🛠️ Tech Stack
+# 📊 Skills Demonstrated
 
-Current technologies used:
+### SQL
+- SELECT
+- FROM
+- WHERE
+- ORDER BY
+- LIMIT
+- GROUP BY
+- COUNT()
+- COUNT(DISTINCT)
+- JOIN
+- Table aliases
+- Column aliases
+- Data filtering
+- Data exploration
 
-- SQL (SQLite)
-- Git
-- GitHub
-- Visual Studio Code
-- DB Browser for SQLite
-
-Technologies planned for later stages:
-
-- Python
-- pandas
-- Matplotlib
-
----
-
-## 💡 Skills Demonstrated
-
+### Database Design
+- Primary keys
+- Foreign keys
 - Relational database concepts
-- SQL querying
-- Data filtering and sorting
-- Database exploration
+- One-to-many relationships
+- Many-to-many relationships using bridge tables
+- Data quality investigation
+
+### Software Development
 - Git version control
-- Technical documentation
+- GitHub workflow
+- Repository organisation
+- Documentation
+- Professional project structure
 
 ---
 
-## 📂 Project Status
+# 📈 Project Progress
 
-**Current Milestone**
+## ✅ Completed
 
-🔄 **Milestone 3 – SQL Fundamentals**
+### Project Setup
+- [x] Git repository created
+- [x] GitHub repository created
+- [x] Professional folder structure
+- [x] README documentation
+- [x] .gitignore configured
 
-### ✅ Completed
-
-- [x] Project setup
-- [x] Development environment configured
-- [x] Git & GitHub repository created
+### Database
 - [x] SQLite database created
 - [x] Formula 1 dataset downloaded
 - [x] Drivers table imported
-- [x] First SQL queries completed (`SELECT`, `FROM`, `WHERE`, `ORDER BY`, `COUNT`)
+- [x] Teams table imported
+- [x] Team Driver table imported
 
-### 🚧 Coming Next
-
-- [ ] Import remaining database tables
-- [ ] SQL `GROUP BY`
-- [ ] SQL `JOIN`s
-- [ ] Python data analysis
-- [ ] Data visualisation
-- [ ] Performance dashboard
+### SQL
+- [x] SELECT
+- [x] FROM
+- [x] WHERE
+- [x] ORDER BY
+- [x] COUNT()
+- [x] GROUP BY
+- [x] LIMIT
+- [x] COUNT(DISTINCT)
+- [x] INNER JOIN
+- [x] Table aliases
+- [x] Column aliases
 
 ---
 
-## 🚀 Project Progress
+## 🚧 In Progress
 
-This repository is being developed incrementally, with each milestone introducing new data analytics concepts and techniques. As the project progresses, additional SQL queries, Python scripts, visualisations and documentation will be added to demonstrate an end-to-end analytics workflow.
+- [ ] Import remaining Formula 1 tables
+- [ ] Aggregate functions (AVG, MIN, MAX, SUM)
+- [ ] More advanced JOINs
+- [ ] Subqueries
+- [ ] Common Table Expressions (CTEs)
+- [ ] Window Functions
+- [ ] Python data analysis
+- [ ] Data visualisation
+- [ ] Interactive dashboard
 
-Future updates will include:
+---
 
-- SQL aggregations and joins
-- Data cleaning and transformation
-- Exploratory data analysis with Python
-- Data visualisations
-- Performance dashboards
-- Advanced statistical insights
+# 📚 Example Business Questions Answered
+
+Current SQL queries can answer questions such as:
+
+- Which nationalities have produced the most Formula 1 drivers?
+- How many British drivers have competed in Formula 1?
+- Which drivers have raced for Ferrari?
+- How many unique drivers have raced for Ferrari?
+- Which teams has a driver raced for throughout their career?
+
+---
+
+# 🚀 Future Development
+
+The next stages of the project will include:
+
+- Importing the remaining Formula 1 tables
+- Building more complex SQL queries
+- Performing data cleaning and transformation using Python
+- Creating visualisations with Matplotlib
+- Developing an interactive dashboard
+- Publishing project findings and insights
+
+---
+
+# 📖 Learning Approach
+
+This project is being developed incrementally as a learning portfolio.
+
+Rather than simply producing visualisations, the focus is on understanding:
+
+- Relational database design
+- SQL problem solving
+- Data quality assessment
+- Data modelling
+- Version control using Git
+- Reproducible analytical workflows
+
+Each milestone builds on the previous one, documenting both technical progress and analytical thinking throughout the project.
